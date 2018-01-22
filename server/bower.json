@@ -1,0 +1,27 @@
+{
+  "name": "purescript-hyper-pux-example-server",
+  "description": "hyper pux example server.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/freylax/hyper-pux-example.git"
+  },
+  "license": "MPL-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+    "dependencies": {
+	"purescript-prelude": "^3.0.0",
+	"purescript-trout": "^0.10.0",
+	"purescript-affjax": "^4.0.0",
+	"purescript-hyper": "^0.8.0",
+	"purescript-hypertrout": "^0.9.0",
+	"purescript-node-http": "4.0.0",
+	"purescript-argonaut-generic": "*"
+    },
+    "devDependencies": {
+	"purescript-psci-support": "^3.0.0"
+    }
+}
